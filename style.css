@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Raleway", sans-serif;
+  }
+  .container{
+    font-family: "Raleway", sans-serif;
+    display:flex;
+    padding: 2%;
+    }
+.logo-container{
+    width:50%;
+    margin-left: 50px;
+    }
+.nav-links{
+  display:flex;
+  margin-left: 700px;
+  gap:40px;
+}
+  .page1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+    margin:2rem;
+   
+    }
+    .text{
+     
+      margin-top:3rem;
+      
+    }
+  h1 {
+    line-height:35px;
+    text-align: left;
+    font-weight:700;
+    font-size: 28px;
+  }
+  p {
+    font-size:15px;
+    text-align: left;
+    line-height: 20px;
+  }
+  .img1 {
+    width:400px;
+    height:300px;
+    margin-top: 50px;
+    margin-left:9rem;
+   }
+  #email {
+    width: 50%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    float: left;
+  }
+  .button{
+    display:inline-block;
+   margin-left: 3%;
+    padding:5px 45px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    border:none;
+    height:35px;
+  }
+  input::placeholder {
+    padding-left: 12px;
+  }
+  .container2{
+    background-image:url("../fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg");
+    background-position-x:center;
+   }
+
+  .page2{
+    margin-top: 5rem;
+    padding:5%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 8%;
+  }
+  .work-link{
+    color:hsl(170, 45%, 43%);
+    text-decoration: underline;
+  }
+  .box{
+    height:220px;
+    width:400px;
+    background-color:white;
+    box-shadow: 50% rgb(3, 3, 3);
+    border-radius: 10px;
+    padding:2%;
+    }
+    .para{
+      font-size: 15px;
+      line-height: 25px;
+      word-spacing: 2px;
+      font-weight: 500;
+    }
+  .bg-curve{
+    width:100%;
+
+  }
+  #page2-img{
+    height:50%;
+    width:60%;
+    margin-left: 100px;
+  }
+ .profile{
+  display:flex;
+  gap:10px;
+ }
+ .profile-img{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+ }
+ .page3{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(238, 22%, 44%);
+  padding: 7% 5% ;
+  height:250px;
+  margin-top: -50px;
+ }
+ .page3-text{
+  width: 100%;
+  margin-right: 3%;
+  font-family: "Raleway", sans-serif;
+  color:#fff;
+  line-height: 25px;
+  text-align: left;
+  font-size: 16px;
+ }
+ .email-box {
+  padding: 5%;
+  width: 100%;
+}
+.email2 {
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 15px;
+  width: 80%;
+}
+.button2{
+  background-color: hsl(224, 93%, 58%);
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  height:30px;
+  width: 40%;
+  padding:10px;
+  padding-bottom:20px;
+}
+
+
+.page4 {
+  padding: 5% 3%;
+  background-color: hsl(243, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  height:30px;
+  margin-left: 20px;
+ 
+}
+.items{
+  display:flex;
+  justify-content: space-around;
+  line-height: 35px;
+  width:80%;
+  color:#fff;
+}
+.data1{
+  margin-left:-35px;
+  margin-right:20px;
+}
+.data2{
+  margin-right: 20px;
+}
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 20px;
+  margin-left:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:white;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+@media (max-width: 375px) {
+  .full{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0.5rem;
+
+  }
+  .container {
+      margin-top:1rem;
+      align-items: center;
+}
+.logo-container{
+  height:25px;
+  width:80px;
+  margin-left:0;
+}
+  .nav-links {
+    font-size: 12px;
+      margin-left: 4rem;
+      gap: 1rem;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  p{
+    font-family: "Open Sans", sans-serif ;
+    font-size: 13px;
+    text-align:justify;
+  }
+
+  .img1 {
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem 0;
+}
+  .page1 {
+      flex-direction: column;
+      text-align: center;
+      margin: 2rem 2rem 5rem 2rem;
+  }
+  
+
+  #email {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  .button {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .page2 {
+      flex-direction: column;
+      text-align: center;
+      margin:5%;
+      padding:0 3% 8% 3%;
+      }
+
+  #page2-img {
+      width: 85%;
+      margin-left: 20px;
+      margin-bottom: 30px;
+  }
+  p{
+    font-size:13px;
+    padding:0 10%;
+  }
+  .box{
+    height:200px;
+    width:280px;
+    margin:1%;
+    padding:1%;
+    -moz-box-align: center;
+    position: relative;
+  }
+  .para{
+    font-size:x-small;
+    text-align: justify;
+  }
+  .work-link{
+    font-size:15px;
+  }
+  .quote{
+    margin-left:2%;
+    position:absolute;
+    top:10px;
+    left:5px;
+  }
+  .profile{
+    padding-bottom:7%;
+    display:flex;
+    justify-content: left;
+  }
+  .profile-img{
+    height:90%;
+    width:30%;
+    margin-left:-20px
+    }
+  .profile-text{
+    margin-left:-45px;
+    text-align: left;
+    font-size: 15px;
+  }
+  .page3 {
+      flex-direction: column;
+      text-align: center;
+      padding-top:10% 5%;
+      height:350px;
+  }
+  .page3-text{
+    text-align:center;
+  }
+  .email2 {
+      height:35px;
+      width: 100%;
+  }
+  .button2 {
+      width: 100%;
+      height: 35px;
+  }
+  .page4{
+    width:100%;
+    padding:5% 10%;
+  }
+  .logo{
+    padding-top:2%;
+    margin-left: 2%;
+  }
+  .data1{
+    padding:2%;
+    }
+ .items {
+      flex-direction: column;
+      align-items: left;
+  }
+  .icon{
+    height:15px;
+    margin-right: 1px;
+  }
+
+  .data1, .data2, .data3,.data4 {
+      margin: 1rem 0;
+  }
+  .data4{
+    margin-left:20%;
+  }
+}
+
